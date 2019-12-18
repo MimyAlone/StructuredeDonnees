@@ -1,0 +1,38 @@
+
+
+*******************************************************************************
+Mon Feb 25 12:02:58 2019
+
+
+FIT:    data read from "Karatsuba.stats"
+        format = z
+        x range restricted to [-105.035 : 1144.97]
+        #datapoints = 999
+        residuals are weighted equally (unit weight)
+
+function used for fitting: a*x**(log(3)/log(2))+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 5.6139442305e+13   0.00e+00  1.61e+04    1.000000e+00   1.000000e+00   1.000000e+00
+   7 1.7018287669e+11  -3.26e-07  1.61e-03    6.816979e+00   1.517198e+02  -1.415035e+04
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.70183e+11
+rel. change during last iteration : -3.25793e-12
+
+degrees of freedom    (FIT_NDF)                        : 996
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 13071.6
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70866e+08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 6.81698          +/- 0.1488       (2.182%)
+b               = 151.72           +/- 8.8          (5.8%)
+c               = -14150.4         +/- 1352         (9.556%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.987  1.000 
+c               0.791 -0.867  1.000 

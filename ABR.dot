@@ -1,0 +1,16 @@
+digraph G {
+8 -> 12 [label="gauche"];
+12 -> 14 [label="gauche"];
+14 -> 15 [label="gauche"];
+14 -> 13 [label="droit"];
+12 -> 10 [label="droit"];
+10 -> 11 [label="gauche"];
+10 -> 9 [label="droit"];
+8 -> 4 [label="droit"];
+4 -> 6 [label="gauche"];
+6 -> 7 [label="gauche"];
+6 -> 5 [label="droit"];
+4 -> 2 [label="droit"];
+2 -> 3 [label="gauche"];
+2 -> 1 [label="droit"];
+}
